@@ -1,10 +1,10 @@
 # Just-Futboll-desktop
 
-##Overview
+## Overview
 JustFootball desktop is a graphical desktop application built with Python and Tkinter, tailored for football enthusiasts. This GUI provides quick access to essential tools like a terminal, the Nano text editor, a graphical notepad, and a custom shell for JustFutball.
 This app offers quick access to essential Unix/Linux tools through a graphical interface, it is designed to simplify and personalize your workflow with a football-inspired interface. It includes real-time clock functionality, clickable icons for tools, 
 
-##Features
+## Features
 **Real-time digital clock**
 **One-click access to system terminal**
 **Integrated Nano editor launcher**
@@ -16,9 +16,11 @@ This app offers quick access to essential Unix/Linux tools through a graphical i
 ```bash
 git clone https://github.com/yourusername/justfutball-desktop.git
 cd justfutball-desktop
+
 2. Run the main script:
-```python3 justfutball_gui.py
-⚠️ Make sure the required images that you choose (.png) are present in the same folder and that the shell script path is correctly set for your environment.
+python3 justfutball_gui.py
+
+##⚠️ Make sure the required images that you choose (.png) are present in the same folder and that the shell script path is correctly set for your environment.
 You can [download the stadium image here](./estadio.png) and use it as the background for the GUI.
 
 ## Dependencies
