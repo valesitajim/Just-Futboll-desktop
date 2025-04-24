@@ -13,7 +13,7 @@ This app offers quick access to essential Unix/Linux tools through a graphical i
 
 ##  Installation
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/yourusername/justfutball-desktop.git
 cd justfutball-desktop
 
@@ -30,14 +30,18 @@ You can [download the stadium image here](./estadio.png) and use it as the backg
 * Nano (CLI text editor)
 * WSL with Ubuntu (for running the shell script in Windows)
 ## Installing Dependencies
-On Ubuntu/Debian-based systems:
-```sudo apt update
-```sudo apt install python3 python3-tk nano
-###On Windows:
-*  Install Python
-* Enable and configure WSL
-* Ensure your terminal emulator is accessible from Python using subprocess
-* Place your custom shell script (justfutboll.sh) in your WSL Ubuntu home directory
+## On Ubuntu/Debian-based systems:
+
+sudo apt update
+sudo apt install python3 python3-tk nano
+
+## On Windows
+
+- Install Python  
+- Enable and configure WSL  
+- Ensure your terminal emulator is accessible from Python using `subprocess`  
+- Place your custom shell script (`justfutboll.sh`) in your WSL Ubuntu home directory  
+
 ## Lincense
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute it. sed under the MIT License.
